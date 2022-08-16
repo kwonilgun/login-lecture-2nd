@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "name": "login-lecture-2nd",
+  "version": "1.0.0",
+  "main": "app.js",
+  "bin": {
+    "login-lecture-2nd": "bin/www.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
