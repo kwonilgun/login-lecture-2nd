@@ -30,12 +30,12 @@ const app = express();
 //앱세팅 - 화면을 뷰를 관리해줄 파일이 저장된 폴더의 이름을 
 //폴더안에 생성되는 HTML 코드를 어떤 엔진으로 해석할 지을 정해준다. 
 //ejs는 뷰 엔진으로 사용하는 엔진이다. 
-app.set('views', './views');
+app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
 //미들웨어를 등록하느 메소드가 use이다.
 //루트라는 경로로 들어오면 home으로 보내준다. 
-const home = require('./routes/home')
+const home = require('./src/routes/home')
 app.use('/', home);    
 
 module.exports = app;   //app를 내 보낸다. 

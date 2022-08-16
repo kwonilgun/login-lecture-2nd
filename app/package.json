@@ -10,7 +10,7 @@
     "login-lecture-2nd": "bin/www.js"
   },
   "scripts": {
-    "start": "node ./src/bin/www.js",
+    "start": "node ./bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

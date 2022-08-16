@@ -5,6 +5,7 @@
 //controller를 콜백함수를 분리해서 만든다. home.ctrl.js로 이동시킨다. 
 
 const express = require('express');
+
 //app을 사용하지 않고 router를 사용한다. 
 const router = express.Router();
 const ctrl = require('./home.ctrl')
