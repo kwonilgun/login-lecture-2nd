@@ -36,7 +36,10 @@ app.set('view engine', 'ejs');
 //미들웨어를 등록하느 메소드가 use이다.
 //루트라는 경로로 들어오면 home으로 보내준다. 
 const home = require('./src/routes/home')
-app.use('/', home);    
+console.log(`${__dirname}/src/public`)
+app.use(express.static(`${__dirname}/src/public`));
+app.use('/', home); 
+   
 
 module.exports = app;   //app를 내 보낸다. 
 
