@@ -28,5 +28,12 @@ function login() {
 
     console.log(req);
     //서버에   req를 전달한다. 
-    // fetch();
+    fetch("/login", {
+        method : "POST",
+        headers: {   //전달하는 데이타 타입을 여기서 지정한다. 
+            "Content-Type": "application/json"
+        },
+        //JSON은 object를 문자열로 만들어준다. 
+        body: JSON.stringify(req),
+    })
 }

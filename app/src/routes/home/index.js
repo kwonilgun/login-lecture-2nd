@@ -12,9 +12,10 @@ const ctrl = require('./home.ctrl')
 
 
 //app 대신에 router로 교체를 해 주면 된다. 
-router.get('/', ctrl.home );
+router.get('/', ctrl.output.home );
  
-router.get('/login', ctrl.login );
+router.get('/login', ctrl.output.login );
+router.post('/login', ctrl.process.login );
 
 module.exports = router
 
