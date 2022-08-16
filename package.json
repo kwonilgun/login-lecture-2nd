@@ -9,12 +9,19 @@
   "bin": {
     "login-lecture-2nd": "bin/www.js"
   },
-  "devDependencies": {},
   "scripts": {
-    "start": "node ./bin/www.js",
+    "start": "node ./src/bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwonilgun/login-lecture-2nd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kwonilgun/login-lecture-2nd/issues"
+  },
+  "homepage": "https://github.com/kwonilgun/login-lecture-2nd#readme",
   "description": ""
 }
